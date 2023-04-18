@@ -1,0 +1,38 @@
+#mascota {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  #mascota img {
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #dialogo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+  }
+  
+  #acciones {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #estados {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  
